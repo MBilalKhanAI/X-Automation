@@ -1,0 +1,55 @@
+2025-04-26 13:19:41,446 - __main__ - INFO - Starting workflow test
+2025-04-26 13:19:46,415 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-04-26 13:19:46,463 - __main__ - INFO - Starting workflow for user 1
+2025-04-26 13:19:47,000 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-04-26 13:19:47,472 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-04-26 13:19:52,784 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-04-26 13:19:54,197 - __main__ - INFO - Learning analysis completed successfully
+2025-04-26 13:19:56,827 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-04-26 13:19:56,835 - __main__ - ERROR - Error in content generation: GuardrailFunctionOutput.__init__() got an unexpected keyword argument 'passed'
+2025-04-26 13:19:56,835 - __main__ - ERROR - Workflow failed: GuardrailFunctionOutput.__init__() got an unexpected keyword argument 'passed'
+2025-04-26 13:19:56,837 - __main__ - ERROR - Workflow failed: GuardrailFunctionOutput.__init__() got an unexpected keyword argument 'passed'
+2025-04-26 13:19:59,349 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-04-26 13:30:58,066 - __main__ - INFO - Starting workflow test
+2025-04-26 13:30:58,072 - __main__ - INFO - Starting workflow for user 1
+2025-04-26 13:30:58,072 - __main__ - ERROR - Workflow failed: Strict JSON schema is enabled, but the output type is not valid. Either make the output type strict, or pass output_schema_strict=False to your Agent()
+2025-04-26 13:30:58,072 - __main__ - ERROR - Learning analysis failed: Strict JSON schema is enabled, but the output type is not valid. Either make the output type strict, or pass output_schema_strict=False to your Agent()
+2025-04-26 13:30:58,076 - __main__ - ERROR - Test failed: Strict JSON schema is enabled, but the output type is not valid. Either make the output type strict, or pass output_schema_strict=False to your Agent()
+2025-04-26 13:32:16,202 - __main__ - INFO - Starting workflow test
+2025-04-26 13:32:16,207 - __main__ - INFO - Starting workflow for user 1
+2025-04-26 13:32:16,210 - __main__ - ERROR - Workflow failed: Strict JSON schema is enabled, but the output type is not valid. Either make the output type strict, or pass output_schema_strict=False to your Agent()
+2025-04-26 13:32:16,210 - __main__ - ERROR - Learning analysis failed: Strict JSON schema is enabled, but the output type is not valid. Either make the output type strict, or pass output_schema_strict=False to your Agent()
+2025-04-26 13:32:16,210 - __main__ - ERROR - Test failed: Strict JSON schema is enabled, but the output type is not valid. Either make the output type strict, or pass output_schema_strict=False to your Agent()
+2025-04-26 13:34:06,120 - __main__ - INFO - Starting workflow test
+2025-04-26 13:34:06,123 - __main__ - INFO - Starting workflow for user 1
+2025-04-26 13:34:06,126 - __main__ - ERROR - Workflow failed: Strict JSON schema is enabled, but the output type is not valid. Either make the output type strict, or pass output_schema_strict=False to your Agent()
+2025-04-26 13:34:06,126 - __main__ - ERROR - Learning analysis failed: Strict JSON schema is enabled, but the output type is not valid. Either make the output type strict, or pass output_schema_strict=False to your Agent()
+2025-04-26 13:34:06,126 - __main__ - ERROR - Test failed: Strict JSON schema is enabled, but the output type is not valid. Either make the output type strict, or pass output_schema_strict=False to your Agent()
+2025-04-26 13:36:27,665 - __main__ - INFO - Starting workflow test
+2025-04-26 13:36:27,669 - __main__ - INFO - Starting workflow for user 1
+2025-04-26 13:36:27,669 - __main__ - ERROR - Workflow failed: Strict JSON schema is enabled, but the output type is not valid. Either make the output type strict, or pass output_schema_strict=False to your Agent()
+2025-04-26 13:36:27,671 - __main__ - ERROR - Learning analysis failed: Strict JSON schema is enabled, but the output type is not valid. Either make the output type strict, or pass output_schema_strict=False to your Agent()
+2025-04-26 13:36:27,671 - __main__ - ERROR - Test failed: Strict JSON schema is enabled, but the output type is not valid. Either make the output type strict, or pass output_schema_strict=False to your Agent()
+2025-04-26 13:36:46,809 - __main__ - INFO - Starting workflow test
+2025-04-26 13:36:46,809 - __main__ - ERROR - Test failed: Strict JSON schema is enabled, but the output type is not valid. Either make the output type strict, or pass output_schema_strict=False to your Agent()
+2025-04-26 13:36:46,817 - __main__ - ERROR - Main execution failed: Strict JSON schema is enabled, but the output type is not valid. Either make the output type strict, or pass output_schema_strict=False to your Agent()
+2025-04-26 13:36:48,062 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 401 Unauthorized"
+2025-04-26 13:36:48,064 - openai.agents - ERROR - [non-fatal] Tracing client error 401: {
+  "error": {
+    "message": "Incorrect API key provided: your_act************here. You can find your API key at https://platform.openai.com/account/api-keys.",
+    "type": "invalid_request_error",
+    "param": null,
+    "code": "invalid_api_key"
+  }
+}
+2025-04-26 15:11:28,534 - __main__ - INFO - Starting workflow test
+2025-04-26 15:11:28,541 - __main__ - ERROR - Test failed: Strict JSON schema is enabled, but the output type is not valid. Either make the output type strict, or pass output_schema_strict=False to your Agent()
+2025-04-26 15:11:28,543 - __main__ - ERROR - Main execution failed: Strict JSON schema is enabled, but the output type is not valid. Either make the output type strict, or pass output_schema_strict=False to your Agent()
+2025-04-26 15:11:28,737 - openai.agents - WARNING - [non-fatal] Tracing: request failed: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+2025-04-26 15:11:29,858 - openai.agents - WARNING - [non-fatal] Tracing: request failed: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+2025-04-26 15:11:31,949 - openai.agents - WARNING - [non-fatal] Tracing: request failed: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+2025-04-26 15:11:31,953 - openai.agents - ERROR - [non-fatal] Tracing: max retries reached, giving up on this batch.
+2025-04-26 15:51:01,901 - __main__ - INFO - Starting workflow test
+2025-04-26 15:51:01,901 - __main__ - ERROR - Test failed: Strict JSON schema is enabled, but the output type is not valid. Either make the output type strict, or pass output_schema_strict=False to your Agent()
+2025-04-26 15:51:01,901 - __main__ - ERROR - Main execution failed: Strict JSON schema is enabled, but the output type is not valid. Either make the output type strict, or pass output_schema_strict=False to your Agent()
+2025-04-26 15:51:03,674 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"

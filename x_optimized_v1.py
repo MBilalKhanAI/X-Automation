@@ -39,7 +39,7 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 
 # Initialize OpenAI API key
-openai_api_key = os.getenv("OPENAI_API_KEY")
+openai_api_key = "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"
 set_default_openai_key(openai_api_key)
 
 # Output types
